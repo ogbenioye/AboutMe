@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style/contact.css"
+</head>
+<body>
+    <div class="main-div">
+        <h1 class="h1text">Contact <span class="text-style-us">us</span></h1>   
+        <form action="" method="post">
+            <input type="text" id="name" name="name" placeholder="Full name" required>
+
+            <input type="email" id="email" name="email" placeholder="Email address" required>
+
+            <textarea id="message" name="messge" placeholder="Write a message" required></textarea><br>
+
+            <div class="dropdown">
+                <label for="priority">How important is this message?</label>
+            <select for="priority" id="priority">
+                <option value="">Choose a priority</option>
+                <option value="not-critical">Not so critical</option>
+                <option value="critical">Critical</option>
+                <option value="very critical">Very Critical</option>
+            </select>
+            </div><br>
+
+            <button>Submit</button>
+        </form>
+    </div>
+    <footer>
+        <div class="footer-grid">
+            <nav class="footer-nav" id="footer-nav-col-1">
+                <ul class="style-list-1">
+                    <li>
+                        <p>
+                            <span class="material-icons">location_on</span>
+                            1, web avenue<br><b>Port 8080, Lagos</b>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <span class="material-icons">phone</span>
+                            +234 342 456 332
+                        </p>
+                    </li>
+                    <li>
+                        <span class="material-icons">email</span>
+                        oluwapelumioyenuga@gmail.com
+                    </li>
+                </ul>
+            </nav>
+            <nav class="other_page-nav">
+                <a href="http://localhost:5500/index.html" id="footer-home-nav">Home</a>
+                <a href="http://localhost:5500/register.html" id="footer-reg-nav">Register</a>
+                <a href="http://localhost:5500/login.html" target="_blank" id="footer-login-nav">Login</a>
+                <a href="http://localhost:5500/cal.html" id="footer-cal-nav">Calculator</a>
+                <p id="copyright-text">Copyright ©2022</p>
+            </nav>
+            <nav class="footer-nav" id="footer-nav-col-2">
+                <h2>
+                    <a class="about_text" href="http://localhost:5500/about.html">About Me</a>
+                </h2>
+                <p>
+                Here's a bunch of stuff to know about me. We'll find out more as we proceed and dive deeper into the course.<br>SEEING THIS COURSE TO THE VERY END!
+                </p>
+                <ul class="style-list-2">
+                    <li>
+                        <a href="https://facebook.com" target="_blank" class="facebook-icon">
+                            <span class="fa fa-facebook"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/ogbenioye" target="_blank" class="twitter-icon">
+                            <span class="fa fa-twitter"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/ogbenioye" target="_blank" class="instagram-icon">
+                            <span class="fa fa-instagram"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/oluwapelumi-oyenuga-2a025911b/" target="_blank" class="linkedin-icon">
+                            <span class="fa fa-linkedin"></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+       </div>
+    </footer>
+</body>
+</html>

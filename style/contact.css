@@ -1,0 +1,85 @@
+body {
+    background-color: white;
+    color: white;
+    margin: 0;
+}
+span{
+    color: rgb(241, 237, 10);
+}
+#name, #email, #message{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid rgb(241, 237, 10);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#priority {
+    width:15%;
+}
+
+button {
+    width: 20%;
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid rgb(241, 237, 10);
+    border-radius: 15px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(52, 47, 47);
+}
+
+.main-div {
+    text-align: center;
+    border-radius: 5px;
+    background-color: black;
+    padding: 50px;
+    margin: 150px;
+}
+.footer-grid {
+    background-color: black;
+    color: white;
+    text-shadow: #000 0 0 .2em;
+    display: grid;
+    grid-template-columns: 1fr 20px 1fr;
+    align-items: center;
+    justify-items: center;
+    column-gap: 300px;
+    height: 250px;
+}
+.style-list-1,
+.style-list-2 {
+    list-style-type: none;
+}
+.style-list-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+}
+.about_text:link, #footer-home-nav:link,
+#footer-reg-nav:link, #footer-login-nav:link,
+#footer-cal-nav:link {
+    color: white;
+    text-decoration: none;
+}
+.about_text:visited, #footer-home-nav:visited,
+#footer-reg-nav:visited, #footer-login-nav:visited,
+#footer-cal-nav:visited {
+    color: white;
+}
+.about_text:hover, #footer-home-nav:hover,
+#footer-reg-nav:hover, #footer-login-nav:hover,
+#footer-cal-nav:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(241, 237, 10);
+}
+#copyright-text {
+    color: grey;
+}
+.other_page-nav {
+    margin-top: 20px;
+}

@@ -1,0 +1,57 @@
+
+.cal-main {
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 650px;
+    border-radius: 20px;
+}
+.cal-center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    text-align:center;
+    font-size: medium;
+}
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+#row-1 > td, #row-2 > td,
+#row-3 > td, #row-4 > td,
+#row-5 > td  {
+    border-radius: 10px;
+    border-color: white;
+    height: 70px;
+}
+input {
+    width: 500px;
+    height: 90px;
+}
+.go-home {
+    margin-left: 50px;
+    padding-top: 50px;
+    color: black;
+    font-size: large;
+}
+.go-home:link {
+    text-decoration: none;
+}
+.go-home:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(241, 237, 10);
+}
+.go-home:visited {
+    color: black;
+}
+.go-home > b > span {
+    color:rgb(241, 237, 10);
+}
+body {
+    margin-top:50px;
+}

@@ -1,0 +1,88 @@
+body{
+    text-align:center;
+    background-color: black;
+    color:white;
+    margin-bottom: 0;
+}
+main {
+    display:grid;
+    grid-template-columns: 1fr 4fr;
+    margin-top:50px;
+}
+input {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid rgb(241, 237, 10);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+button {
+    width: 20%;
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid rgb(241, 237, 10);
+    border-radius: 15px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(52, 47, 47);
+}
+.form-div {
+    width: 100%;
+    height: 700px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: white;
+    padding-bottom: 3px;
+    padding-right: 8px;
+    padding-top: 10px;
+}
+.form-div > form > h1 {
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+#aside-about {
+    font-style: italic;
+    color:rgb(241, 237, 10);
+}
+.aside-about:link, .aside-contact:link,
+.aside-reg:link, .aside-login:link,
+.aside-cal:link {
+    color: white;
+    text-decoration: none;
+}
+.aside-about:visited, .aside-contact:visited,
+.aside-reg:visited, .aside-login:visited,
+.aside-cal:visited {
+    color: white;
+}
+.aside-about:hover, .aside-contact:hover,
+.aside-reg:hover, .aside-login:hover,
+.aside-cal:hover {
+    text-decoration:underline;
+    text-decoration-style:wavy;
+    text-decoration-color: rgb(241, 237, 10);
+}
+#register-nav-last {
+    color: black;
+    font-size: medium;
+}
+#btm-register-style:link {
+    color: rgb(241, 237, 10);
+    text-decoration: none;
+}
+#btm-register-style:visited {
+    color: rgb(241, 237, 10);
+}
+#btm-register-style:hover {
+    text-decoration:underline;
+    text-decoration-color: rgb(241, 237, 10);
+}
+#copyright {
+    color:grey;
+}
